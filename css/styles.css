@@ -64,14 +64,14 @@ ul.dones li .buttons {
 
 ul.todos li .buttons button {
 height: 50px;
-width: 50%;
+width: 33%;
 float: left;
 position: relative;
 }
 
 ul.dones li .buttons button {
   height: 50px;
-  width: 50%;
+  width: 33%;
   float: left;
   position: relative;
 }
