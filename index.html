@@ -12,27 +12,46 @@
 
 <body>
 
-
+<!-- todo and done list area -->
+<div class="container-fluid listcontainer">
     <div class="row listbox">
+<!-- todos -->
       <div class="todolist col-md-6">
-        <p>are</p>
+        <div class="listcontainer">
+        <ul class="todos" id="incomplete">
+        </ul>
       </div>
 
-      <div class="donelist col-md-6">
-        <p>dsaklfn</p>
       </div>
+
+
+<!-- dones -->
+      <div class="donelist col-md-6">
+        <div class="listcontainer">
+        <ul class="dones" id="complete">
+        </ul>
+
+      </div>
+</div>
+
 
     </div>
+</div>
 
 
+<!-- bottom entry area -->
   <div class="bottomsection row">
     <div class="entrybox col-md-12">
-      <input type="text" placeholder="what to do?...">
-      <button> submit </button>
+      <!-- <form class="entrybox"> -->
+        <input type="text" placeholder="what to do?..." id="NewItem">
+        <button id="addItemToList"> submit </button>
+      <!-- </form> -->
     </div>
   </div>
 
 
 
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/scripts.js"></script>
 </body>
